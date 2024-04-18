@@ -26,24 +26,30 @@ h1 {
 
 .padre{
     display: grid;
-    padding: 50px;
+    padding: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center; 
 }
 
-img {
-    width: 300px;
-    height: 300px;
+.Teaching{
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 20px;
 }
 
 .madre{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
+    justify-items: center; 
+    align-items: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.a{
-    margin-bottom: 40px;
-    width: 300px;
-    height: 200px;
+i{
+    font-size: 130px;
+    margin-top: 100px;
 }
+
+
+
